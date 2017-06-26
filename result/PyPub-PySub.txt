@@ -1,0 +1,60 @@
+[INFO] [1498429061.007160]: Preparing benchmark at 10 Hz rate
+[INFO] [1498429062.009091]: Processing (for 5 seconds)
+[INFO] [1498429068.027876]: Result:
+[INFO] [1498429068.028785]: Requested = 10 Hz, Received = 10.000200 Hz, Lost message(s) = 0
+[INFO] [1498429068.029792]: Preparing benchmark at 50 Hz rate
+[INFO] [1498429069.030940]: Processing (for 5 seconds)
+[INFO] [1498429075.045869]: Result:
+[INFO] [1498429075.046722]: Requested = 50 Hz, Received = 50.000000 Hz, Lost message(s) = 0
+[INFO] [1498429075.047428]: Preparing benchmark at 100 Hz rate
+[INFO] [1498429076.049523]: Processing (for 5 seconds)
+[INFO] [1498429082.069208]: Result:
+[INFO] [1498429082.070159]: Requested = 100 Hz, Received = 99.990001 Hz, Lost message(s) = 0
+[INFO] [1498429082.070973]: Preparing benchmark at 250 Hz rate
+[INFO] [1498429083.072753]: Processing (for 5 seconds)
+[INFO] [1498429089.090177]: Result:
+[INFO] [1498429089.091235]: Requested = 250 Hz, Received = 250.250250 Hz, Lost message(s) = 0
+[INFO] [1498429089.092444]: Preparing benchmark at 500 Hz rate
+[INFO] [1498429090.094492]: Processing (for 5 seconds)
+[INFO] [1498429096.110733]: Result:
+[INFO] [1498429096.111980]: Requested = 500 Hz, Received = 498.256104 Hz, Lost message(s) = 0
+[INFO] [1498429096.112909]: Preparing benchmark at 750 Hz rate
+[INFO] [1498429097.114768]: Processing (for 5 seconds)
+[INFO] [1498429103.135364]: Result:
+[INFO] [1498429103.136504]: Requested = 750 Hz, Received = 751.879699 Hz, Lost message(s) = 0
+[INFO] [1498429103.137422]: Preparing benchmark at 1000 Hz rate
+[INFO] [1498429104.139315]: Processing (for 5 seconds)
+[INFO] [1498429110.158859]: Result:
+[INFO] [1498429110.159732]: Requested = 1000 Hz, Received = 1005.025126 Hz, Lost message(s) = 0
+[INFO] [1498429110.160695]: Preparing benchmark at 1250 Hz rate
+[INFO] [1498429111.162667]: Processing (for 5 seconds)
+[INFO] [1498429117.188374]: Result:
+[INFO] [1498429117.189318]: Requested = 1250 Hz, Received = 1251.564456 Hz, Lost message(s) = 0
+[INFO] [1498429117.190242]: Preparing benchmark at 1500 Hz rate
+[INFO] [1498429118.191772]: Processing (for 5 seconds)
+[INFO] [1498429124.216444]: Result:
+[INFO] [1498429124.217514]: Requested = 1500 Hz, Received = 1510.574018 Hz, Lost message(s) = 0
+[INFO] [1498429124.218525]: Preparing benchmark at 1750 Hz rate
+[INFO] [1498429125.220009]: Processing (for 5 seconds)
+[INFO] [1498429131.241515]: Result:
+[INFO] [1498429131.242803]: Requested = 1750 Hz, Received = 1689.189189 Hz, Lost message(s) = 0
+[INFO] [1498429131.243872]: Preparing benchmark at 2000 Hz rate
+[INFO] [1498429132.245837]: Processing (for 5 seconds)
+[INFO] [1498429138.269819]: Result:
+[INFO] [1498429138.271208]: Requested = 2000 Hz, Received = 1949.317739 Hz, Lost message(s) = 0
+[INFO] [1498429138.272397]: Preparing benchmark at 3000 Hz rate
+[INFO] [1498429139.275074]: Processing (for 5 seconds)
+[INFO] [1498429145.302496]: Result:
+[INFO] [1498429145.303406]: Requested = 3000 Hz, Received = 3058.103976 Hz, Lost message(s) = 0
+[INFO] [1498429145.304192]: Preparing benchmark at 4000 Hz rate
+[INFO] [1498429146.306895]: Processing (for 5 seconds)
+[INFO] [1498429152.340979]: Result:
+[INFO] [1498429152.341979]: Requested = 4000 Hz, Received = 1988.071571 Hz, Lost message(s) = 107
+[INFO] [1498429152.342892]: Preparing benchmark at 5000 Hz rate
+[INFO] [1498429153.344219]: Processing (for 5 seconds)
+[INFO] [1498429159.377883]: Result:
+[INFO] [1498429159.378960]: Requested = 5000 Hz, Received = 1479.289941 Hz, Lost message(s) = 13972
+[INFO] [1498429159.379894]: Preparing benchmark at 6000 Hz rate
+[INFO] [1498429160.381895]: Processing (for 5 seconds)
+[INFO] [1498429166.413333]: Result:
+[INFO] [1498429166.414654]: Requested = 6000 Hz, Received = 1132.502831 Hz, Lost message(s) = 18031
