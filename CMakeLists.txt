@@ -37,19 +37,44 @@ include_directories(
 add_executable(publisher_cpp src/publisher.cpp)
 add_executable(subscriber_cpp src/subscriber.cpp src/benchmark.cpp)
 
-target_link_libraries(
-  publisher_cpp
-  ${catkin_LIBRARIES}
-)
-target_link_libraries(
-  subscriber_cpp
-  ${catkin_LIBRARIES}
+target_link_libraries( publisher_cpp ${catkin_LIBRARIES} )
+target_link_libraries( subscriber_cpp ${catkin_LIBRARIES})
+
+add_dependencies(
+	publisher_cpp
+	#_performance_tests_generate_messages_check_deps_SetRate
+	#_performance_tests_generate_messages_check_deps_SuperAwesome
+	#performance_tests_generate_messages_py
+	performance_tests_generate_messages_cpp
+	#performance_tests_generate_messages
 )
 
-install(PROGRAMS
-  scripts/publisher.py
-  scripts/subscriber.py
-  scripts/bechmark.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+add_dependencies(
+	subscriber_cpp
+	#_performance_tests_generate_messages_check_deps_SetRate
+	#_performance_tests_generate_messages_check_deps_SuperAwesome
+	#performance_tests_generate_messages_py
+	performance_tests_generate_messages_cpp
+	#performance_tests_generate_messages
 )
 
+
+
+install(
+	PROGRAMS
+	scripts/publisher.py
+	scripts/subscriber.py
+	scripts/bechmark.py
+	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+# RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+#	TARGETS ${PROJECT_NAME}
+#	TARGETS publisher_cpp
+#  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
+install(
+# RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+#	TARGETS ${PROJECT_NAME}
+	TARGETS publisher_cpp subscriber_cpp
+ 	DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
